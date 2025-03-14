@@ -17,7 +17,7 @@ This repository contains handpicked wallpapers that work particularly well with 
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/wallpaper-archive.git
+git clone https://github.com/SantoshShrestha11/wallpaper-archive.git
 ```
 
 Set a wallpaper in Hyprland by adding to your configuration file (`~/.config/hypr/hyprland.conf`):
@@ -28,12 +28,10 @@ exec-once = swaybg -i /path/to/wallpaper-archive/your-wallpaper.jpg
 
 ## Organization
 
-Wallpapers are organized by theme/style:
+Wallpapers are organized by their type:
 
-- `abstract/` - Abstract and geometric designs
-- `minimal/` - Minimalist wallpapers
-- `nature/` - Nature and landscapes
-- `solid/` - Solid colors and gradients
+- `Dynamic-Wallpapers/` - Contains all the dynamic wallpapers
+- `Static-Wallpapers/` - Contains all the statis wallpapers
 
 ## Contributing
 
