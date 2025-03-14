@@ -22,8 +22,23 @@ git clone https://github.com/SantoshShrestha11/wallpaper-archive.git
 
 Set a wallpaper in Hyprland by adding to your configuration file (`~/.config/hypr/hyprland.conf`):
 
+For swaybg:
+
 ```bash
 exec-once = swaybg -i /path/to/wallpaper-archive/your-wallpaper.jpg
+```
+
+For mpvpaper:
+
+```bash
+exec-once = mpvpaper -s -o "no-audio loop" eDP-1 ~/path/to/wallpaper-archive/your-wallpaer.mp4
+```
+
+Add the following lines to the `~/path/to/hyprpaper.conf`:
+
+```bash
+preload = ~/path/to/wallpaper-archive/your-wallpaper.jpg
+wallpaper = , ~/path/to/wallpaper-archive/your-wallpaper.jpg
 ```
 
 ## Organization
