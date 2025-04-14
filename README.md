@@ -17,7 +17,7 @@ This repository contains handpicked wallpapers that work particularly well with 
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/SantoshShrestha11/wallpaper-archive.git
+git clone https://github.com/santoshxshrestha/wallpaper-archive.git
 ```
 
 Set a wallpaper in Hyprland by adding to your configuration file (`~/.config/hypr/hyprland.conf`):
