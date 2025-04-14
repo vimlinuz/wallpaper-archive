@@ -20,7 +20,9 @@ Clone this repository to your local machine:
 git clone https://github.com/santoshxshrestha/wallpaper-archive.git
 ```
 
-Set a wallpaper in Hyprland by adding to your configuration file (`~/.config/hypr/hyprland.conf`):
+Set a wallpaper in Hyprland by adding to your configuration file (`~/.config/hypr/hyprland.conf`).
+
+Here are some examples:
 
 For swaybg:
 
