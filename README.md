@@ -60,4 +60,10 @@ Contributions are welcome! If you'd like to add wallpapers:
 
 ## License
 
+This is a curated archive of wallpapers collected from various open sources and repositories.
+All wallpapers belong to their original creators. This archive does not claim ownership of any content.
 Please respect the original creators of the wallpapers. This collection is for personal use only.
+
+> [!usages]
+> Personal use only. Do not redistribute or use for commercial purposes without permission from the original author.
+> If you're a creator and would like your artwork removed or credited, please open an issue.
