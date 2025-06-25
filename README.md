@@ -1,4 +1,4 @@
-# Wallpaper Archive for Hyprland
+# Wallpaper Archive for Hyprland (wallpaper-archive)
 
 A collection of wallpapers optimized for Hyprland window manager environments. These backgrounds complement Hyprland's dynamic tiling and modern aesthetics while enhancing the overall desktop experience.
 
