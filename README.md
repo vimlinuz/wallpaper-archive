@@ -15,11 +15,11 @@ This repository contains handpicked wallpapers that work particularly well with 
 
 
 
-## 📸 Wallpaper Previews
+## Wallpaper Previews
 
 > All wallpapers are at least 1920x1080. Scroll down to see them all!
 
-### 🖼️ Static Wallpapers
+### Static Wallpapers
 
 <p align="center">
   <img src="Static-Wallpapers/Abstract - Nature.jpg" width="300">
@@ -192,10 +192,12 @@ This repository contains handpicked wallpapers that work particularly well with 
   <img src="Static-Wallpapers/Under_Starlit_Sky.png" width="300">
   <img src="Static-Wallpapers/Village-Dark.png" width="300">
   <img src="Static-Wallpapers/Village-Light.png" width="300">
+  <img src="Static-Wallpapers/emma.jpg" width="300">
+  
 </p>
 
 ---
-### 🎞️ Dynamic Wallpapers
+### Dynamic Wallpapers
 
 **Note:** Dynamic wallpapers (.mp4, .webm) cannot be previewed directly in GitHub. Please browse the `Dynamic-Wallpapers/` folder to see the available animated wallpapers.
 
