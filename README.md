@@ -1,19 +1,16 @@
-# Wallpaper Archive for Hyprland (wallpaper-archive)
+# Wallpaper Archive for Linux Window Managers & Desktops
 
-A collection of wallpapers optimized for Hyprland window manager environments. These backgrounds complement Hyprland's dynamic tiling and modern aesthetics while enhancing the overall desktop experience.
+A collection of high-quality wallpapers suitable for all major Linux window managers and desktop environments. These backgrounds are curated to complement dynamic tiling, modern aesthetics, and to enhance the overall desktop experience—whether you're using Hyprland, Sway, i3, GNOME, KDE Plasma, XFCE, or any other environment.
 
 ## About
 
-This repository contains handpicked wallpapers that work particularly well with Hyprland configurations. The wallpapers are selected to match Hyprland's sleek, minimal design philosophy and provide a cohesive desktop experience.
+This repository contains handpicked wallpapers that work beautifully across a wide range of setups. While many are optimized for minimal, sleek configurations (such as Hyprland), they are equally at home on desktops and window managers of all kinds.
 
 ## Contents
 
 - High-resolution backgrounds (minimum 1920x1080)
 - Various themes and styles
-- Optimized for Hyprland's transparency and blur effects
-
-
-
+- Suitable for transparency and blur effects if your environment supports them
 
 ## Wallpaper Previews
 
@@ -22,7 +19,8 @@ This repository contains handpicked wallpapers that work particularly well with 
 ### Static Wallpapers
 
 <p align="center">
-  <img src="Static-Wallpapers/Abstract - Nature.jpg" width="300">
+
+ <img src="Static-Wallpapers/Abstract - Nature.jpg" width="300">
   <img src="Static-Wallpapers/Anime-Girl-Night-Sky.jpg" width="300">
   <img src="Static-Wallpapers/anime-night-sky-illustration.jpg" width="300">
   <img src="Static-Wallpapers/apple-light.jpg" width="300">
@@ -193,23 +191,21 @@ This repository contains handpicked wallpapers that work particularly well with 
   <img src="Static-Wallpapers/Village-Dark.png" width="300">
   <img src="Static-Wallpapers/Village-Light.png" width="300">
   <img src="Static-Wallpapers/emma.jpg" width="300">
-  
 </p>
 
 ---
+
 ### Dynamic Wallpapers
 
 **Note:** Dynamic wallpapers (.mp4, .webm) cannot be previewed directly in GitHub. Please browse the `Dynamic-Wallpapers/` folder to see the available animated wallpapers.
-
 
 ## Organization
 
 Wallpapers are organized by their type:
 
-- `Dynamic-Wallpapers/` - Contains all the dynamic wallpapers
-- `Static-Wallpapers/` - Contains all the statis wallpapers
+- `Dynamic-Wallpapers/` — Contains all the dynamic wallpapers
+- `Static-Wallpapers/` — Contains all the static wallpapers
 
-  
 ## Usage
 
 Clone this repository to your local machine:
@@ -218,29 +214,67 @@ Clone this repository to your local machine:
 git clone https://github.com/santoshxshrestha/wallpaper-archive.git
 ```
 
-Set a wallpaper in Hyprland by adding to your configuration file (`~/.config/hypr/hyprland.conf`).
+### How to Set Wallpapers
 
-## Here are some examples:
+Below are examples for popular Linux window managers and desktop environments. Replace `/path/to/wallpaper-archive/your-wallpaper.jpg` with your chosen wallpaper.
 
-For swaybg:
+#### Hyprland
 
-```bash
+Add to your configuration file (`~/.config/hypr/hyprland.conf`):
+
+```
 exec-once = swaybg -i /path/to/wallpaper-archive/your-wallpaper.jpg
 ```
 
-For mpvpaper:
+Or, with Hyprpaper:
 
-```bash
-exec-once = mpvpaper -s -o "no-audio loop" eDP-1 ~/path/to/wallpaper-archive/your-wallpaer.mp4
 ```
-
-Add the following lines to the `~/path/to/hyprpaper.conf`:
-
-```bash
 preload = ~/path/to/wallpaper-archive/your-wallpaper.jpg
 wallpaper = , ~/path/to/wallpaper-archive/your-wallpaper.jpg
 ```
 
+#### Sway
+
+```
+exec-once = swaybg -i /path/to/wallpaper-archive/your-wallpaper.jpg
+```
+
+#### i3 / dwm / Openbox (using feh)
+
+```
+feh --bg-scale /path/to/wallpaper-archive/your-wallpaper.jpg
+```
+
+#### GNOME
+
+Right-click the desktop and select "Change Background", then browse to the cloned folder and select a wallpaper.
+Or, from the terminal:
+
+```
+gsettings set org.gnome.desktop.background picture-uri "file:///path/to/wallpaper-archive/your-wallpaper.jpg"
+```
+
+#### KDE Plasma
+
+- Right-click the desktop → "Configure Desktop and Wallpaper" → Add Image → Select from the wallpaper-archive.
+
+#### XFCE
+
+- Right-click desktop → "Desktop Settings" → Add → Browse to wallpaper-archive.
+
+#### Cinnamon, LXQt, MATE, etc.
+
+- Use the standard desktop settings dialog to browse to the wallpaper-archive and pick your image.
+
+#### For Dynamic Wallpapers
+
+For environments that support dynamic wallpapers, you can use `mpvpaper`:
+
+```
+mpvpaper -s -o "no-audio loop" eDP-1 ~/path/to/wallpaper-archive/your-wallpaper.mp4
+```
+
+_If your environment isn’t listed here, please open an issue or PR with setup instructions!_
 
 ## Contributing
 
@@ -256,7 +290,5 @@ This is a curated archive of wallpapers collected from various open sources and 
 All wallpapers belong to their original creators. This archive does not claim ownership of any content.
 Please respect the original creators of the wallpapers. This collection is for personal use only.
 
-> usages: Personal use only. Do not redistribute or use for commercial purposes without permission from the original author.
+> Usage: Personal use only. Do not redistribute or use for commercial purposes without permission from the original author.
 > If you're a creator and would like your artwork removed or credited, please open an issue.
-
-
