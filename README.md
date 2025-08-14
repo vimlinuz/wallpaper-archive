@@ -191,6 +191,9 @@ This repository contains handpicked wallpapers that work beautifully across a wi
   <img src="Static-Wallpapers/Village-Dark.png" width="300">
   <img src="Static-Wallpapers/Village-Light.png" width="300">
   <img src="Static-Wallpapers/emma.jpg" width="300">
+  <img src="Static-Wallpapers/nix.png" width="300">
+  <img src="Static-Wallpapers/nix-dark.png" width="300">
+  <img src="Static-Wallpapers/nix-bright.png" width="300">
 </p>
 
 ---
