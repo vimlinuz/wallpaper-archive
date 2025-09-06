@@ -194,7 +194,27 @@ This repository contains handpicked wallpapers that work beautifully across a wi
   <img src="Static-Wallpapers/nix.png" width="300">
   <img src="Static-Wallpapers/nix-dark.png" width="300">
   <img src="Static-Wallpapers/nix-bright.png" width="300">
-    <img src="Static-Wallpapers/miyamoto.jpg" width="300">
+  <img src="Static-Wallpapers/miyamoto.jpg" width="300">
+  <img src="Static-Wallpapers/astro-skull.png" width="300">
+  <img src="Static-Wallpapers/broom-fall.jpg" width="300">
+  <img src="Static-Wallpapers/japanese-train.png" width="300">
+  <img src="Static-Wallpapers/keyboard.png" width="300">
+  <img src="Static-Wallpapers/liquid-yin-and-yang.jpeg" width="300">
+  <img src="Static-Wallpapers/psycho-mob-100.png" width="300">
+ <img src="Static-Wallpapers/reflection-of-train.png" width="300">
+ <img src="Static-Wallpapers/shiba.png" width="300">
+ <img src="Static-Wallpapers/ship-landscape.jpeg" width="300">
+ <img src="Static-Wallpapers/the-white-horse.jpg" width="300">
+ <img src="Static-Wallpapers/train.png" width="300">
+ <img src="Static-Wallpapers/yellowcar.jpg" width="300">
+
+
+
+
+
+
+
+
 
 </p>
 
