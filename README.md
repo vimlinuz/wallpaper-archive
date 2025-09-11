@@ -207,6 +207,7 @@ This repository contains handpicked wallpapers that work beautifully across a wi
  <img src="Static-Wallpapers/the-white-horse.jpg" width="300">
  <img src="Static-Wallpapers/train.png" width="300">
  <img src="Static-Wallpapers/yellowcar.jpg" width="300">
+ <img src="Static-Wallpapers/vinland-saga.jpg" width="300">
 
 
 
