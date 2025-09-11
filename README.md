@@ -208,6 +208,12 @@ This repository contains handpicked wallpapers that work beautifully across a wi
  <img src="Static-Wallpapers/train.png" width="300">
  <img src="Static-Wallpapers/yellowcar.jpg" width="300">
  <img src="Static-Wallpapers/vinland-saga.jpg" width="300">
+ <img src="Static-Wallpapers/thorfinn_with_tourch.jpg" width="300">
+ <img src="Static-Wallpapers/ketils_farm.jpg" width="300">
+ <img src="Static-Wallpapers/thorfinn_and_askeladd.jpg" width="300">
+
+
+
 
 
 
