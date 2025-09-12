@@ -132,7 +132,7 @@ All wallpapers belong to their original creators. This archive does not claim ow
 Please respect the original creators of the wallpapers. This collection is for personal use only.
 
 > Usage: Personal use only. Do not redistribute or use for commercial purposes without permission from the original author.
-> If you\'re a creator and would like your artwork removed or credited, please open an issue.  
+> If you're a creator and would like your artwork removed or credited, please open an issue.  
 "
 
 # Concatenate all parts and write to README.md
