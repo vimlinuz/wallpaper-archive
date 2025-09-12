@@ -88,7 +88,7 @@ feh --bg-scale /path/to/wallpaper-archive/your-wallpaper.jpg
 
 #### GNOME
 
-Right-click the desktop and select \"Change Background\", then browse to the cloned folder and select a wallpaper.
+Right-click the desktop and select "Change Background", then browse to the cloned folder and select a wallpaper.
 Or, from the terminal:
 
 ```
