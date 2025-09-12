@@ -213,7 +213,7 @@ This repository contains handpicked wallpapers that work beautifully across a wi
  <img src="Static-Wallpapers/thorfinn_and_askeladd.jpg" width="300">
  <img src="Static-Wallpapers/catumbrella.jpg" width="300">
 <img src="Static-Wallpapers/cyber_girl.jpg" width="300">
-<img src="Static-Wallpapers/loose-control.png" width="300">
+<img src="Static-Wallpapers/lose-control.png" width="300">
 <img src="Static-Wallpapers/rose-pine-sword.jpg" width="300">
 <img src="Static-Wallpapers/sword-red.png" width="300">
 
