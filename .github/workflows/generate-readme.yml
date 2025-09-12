@@ -24,7 +24,7 @@ jobs:
           sudo dpkg -i nushell.deb
 
       - name: Generate README.md using Nushell
-        run: nu ../../generate_readme.nu
+        run: nu generate_readme.nu
 
       - name: Commit and push README.md if changed
         run: |
@@ -34,4 +34,4 @@ jobs:
           git diff --cached --quiet || git commit -m "chore: auto-update README with latest wallpapers"
           git push
         env:
-          GITHUB_TOKEN
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
