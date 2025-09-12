@@ -51,28 +51,28 @@ Wallpapers are organized by their type:
 
 Clone this repository to your local machine:
 
-\`\`\`bash
+```bash
 git clone https://github.com/santoshxshrestha/wallpaper-archive.git
-\`\`\`
+```
 
 ### How to Set Wallpapers
 
-Below are examples for popular Linux window managers and desktop environments. Replace \`/path/to/wallpaper-archive/your-wallpaper.jpg\` with your chosen wallpaper.
+Below are examples for popular Linux window managers and desktop environments. Replace `/path/to/wallpaper-archive/your-wallpaper.jpg` with your chosen wallpaper.
 
 #### Hyprland
 
-Add to your configuration file (\`~/.config/hypr/hyprland.conf\`):
+Add to your configuration file (`~/.config/hypr/hyprland.conf`):
 
-\`\`\`
+```
 exec-once = swaybg -i /path/to/wallpaper-archive/your-wallpaper.jpg
-\`\`\`
+```
 
 Or, with Hyprpaper:
 
-\`\`\`
+```
 preload = ~/path/to/wallpaper-archive/your-wallpaper.jpg
 wallpaper = , ~/path/to/wallpaper-archive/your-wallpaper.jpg
-\`\`\`
+```
 
 #### Sway
 
