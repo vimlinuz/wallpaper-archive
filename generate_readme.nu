@@ -76,24 +76,24 @@ wallpaper = , ~/path/to/wallpaper-archive/your-wallpaper.jpg
 
 #### Sway
 
-\`\`\`
+```
 exec-once = swaybg -i /path/to/wallpaper-archive/your-wallpaper.jpg
-\`\`\`
+```
 
 #### i3 / dwm / Openbox (using feh)
 
-\`\`\`
+```
 feh --bg-scale /path/to/wallpaper-archive/your-wallpaper.jpg
-\`\`\`
+```
 
 #### GNOME
 
 Right-click the desktop and select \"Change Background\", then browse to the cloned folder and select a wallpaper.
 Or, from the terminal:
 
-\`\`\`
-gsettings set org.gnome.desktop.background picture-uri \"file:///path/to/wallpaper-archive/your-wallpaper.jpg\"
-\`\`\`
+```
+gsettings set org.gnome.desktop.background picture-uri "file:///path/to/wallpaper-archive/your-wallpaper.jpg"
+```
 
 #### KDE Plasma
 
@@ -111,15 +111,15 @@ gsettings set org.gnome.desktop.background picture-uri \"file:///path/to/wallpap
 
 For environments that support dynamic wallpapers, you can use \`mpvpaper\`:
 
-\`\`\`
-mpvpaper -s -o \"no-audio loop\" eDP-1 ~/path/to/wallpaper-archive/your-wallpaper.mp4
-\`\`\`
+```
+mpvpaper -s -o "no-audio loop" eDP-1 ~/path/to/wallpaper-archive/your-wallpaper.mp4
+```
 
 _If your environment isn’t listed here, please open an issue or PR with setup instructions!_
 
 ## Contributing
 
-Contributions are welcome! If you\'d like to add wallpapers:
+Contributions are welcome! If you'd like to add wallpapers:
 
 1. Fork this repository
 2. Add your wallpapers (1920x1080 minimum resolution)
