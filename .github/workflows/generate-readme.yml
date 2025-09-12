@@ -1,0 +1,37 @@
+name: Generate README
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'Static-Wallpapers/**'
+      - 'generate_readme.nu'
+
+jobs:
+  generate-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Nushell
+        run: |
+          curl -s https://api.github.com/repos/nushell/nushell/releases/latest \
+            | grep "browser_download_url.*linux-x86_64\.deb" \
+            | cut -d : -f 2,3 \
+            | tr -d \" \
+            | wget -i - -O nushell.deb
+          sudo dpkg -i nushell.deb
+
+      - name: Generate README.md using Nushell
+        run: nu generate_readme.nu
+
+      - name: Commit and push README.md if changed
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "chore: auto-update README with latest wallpapers"
+          git push
+        env:
+          GITHUB_TOKEN
