@@ -14,14 +14,14 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install Nushell
+      - name: Install Nushell via apt.fury.io
         run: |
-          curl -s https://api.github.com/repos/nushell/nushell/releases/latest \
-            | grep "browser_download_url.*linux-x86_64\.deb" \
-            | cut -d : -f 2,3 \
-            | tr -d \" \
-            | wget -i - -O nushell.deb
-          sudo dpkg -i nushell.deb
+          sudo apt-get update
+          sudo apt-get install -y curl gnupg
+          curl -fsSL https://apt.fury.io/nushell/gpg.key | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/fury-nushell.gpg
+          echo "deb https://apt.fury.io/nushell/ /" | sudo tee /etc/apt/sources.list.d/fury.list
+          sudo apt-get update
+          sudo apt-get install -y nushell
 
       - name: Generate README.md using Nushell
         run: nu generate_readme.nu
