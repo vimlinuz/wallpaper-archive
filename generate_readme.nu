@@ -24,9 +24,8 @@ This repository contains handpicked wallpapers that work beautifully across a wi
 "
 
 # Get all files in Static-Wallpapers/ with image extensions, sorted
-let images = ls Static-Wallpapers | where type == 'file' and (name | str ends-with '.jpg' or str ends-with '.jpeg' or str ends-with '.png' or str ends-with '.webp') | sort-by name
+let images = ls Static-Wallpapers | sort-by name
 
-# Generate HTML image tags for the gallery
 let img_tags = $images | each {|it| 
     $"<img src=\"Static-Wallpapers/($it.name | path basename)\" width=\"300\">"
 } | str join "\n"
