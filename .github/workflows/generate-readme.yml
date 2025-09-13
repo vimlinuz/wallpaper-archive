@@ -7,6 +7,9 @@ on:
       - 'Static-Wallpapers/**'
       - 'generate_readme.nu'
 
+permissions:
+  contents: write
+
 jobs:
   generate-readme:
     runs-on: ubuntu-latest
