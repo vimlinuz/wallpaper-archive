@@ -3,6 +3,7 @@ name: Generate README
 on:
   workflow_dispatch:
   push:
+    branches: ["main"]
     paths:
       - 'Static-Wallpapers/**'
       - 'generate_readme.nu'
