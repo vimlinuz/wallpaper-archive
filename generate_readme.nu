@@ -30,7 +30,6 @@ let img_tags = $images | each {|it|
     $"<img src=\"Static-Wallpapers/($it.name | path basename)\" width=\"300\">"
 } | str join "\n"
 
-# Dynamic Wallpapers note
 let dynamic_note = "
 </p>
 
@@ -47,75 +46,6 @@ Wallpapers are organized by their type:
 - `Dynamic-Wallpapers/` — Contains all the dynamic wallpapers
 - `Static-Wallpapers/` — Contains all the static wallpapers
 
-## Usage
-
-Clone this repository to your local machine:
-
-```bash
-git clone https://github.com/santoshxshrestha/wallpaper-archive.git
-```
-
-### How to Set Wallpapers
-
-Below are examples for popular Linux window managers and desktop environments. Replace `/path/to/wallpaper-archive/your-wallpaper.jpg` with your chosen wallpaper.
-
-#### Hyprland
-
-Add to your configuration file (`~/.config/hypr/hyprland.conf`):
-
-```
-exec-once = swaybg -i /path/to/wallpaper-archive/your-wallpaper.jpg
-```
-
-Or, with Hyprpaper:
-
-```
-preload = ~/path/to/wallpaper-archive/your-wallpaper.jpg
-wallpaper = , ~/path/to/wallpaper-archive/your-wallpaper.jpg
-```
-
-#### Sway
-
-```
-exec-once = swaybg -i /path/to/wallpaper-archive/your-wallpaper.jpg
-```
-
-#### i3 / dwm / Openbox (using feh)
-
-```
-feh --bg-scale /path/to/wallpaper-archive/your-wallpaper.jpg
-```
-
-#### GNOME
-
-Right-click the desktop and select "Change Background", then browse to the cloned folder and select a wallpaper.
-Or, from the terminal:
-
-```
-gsettings set org.gnome.desktop.background picture-uri "file:///path/to/wallpaper-archive/your-wallpaper.jpg"
-```
-
-#### KDE Plasma
-
-- Right-click the desktop → \"Configure Desktop and Wallpaper\" → Add Image → Select from the wallpaper-archive.
-
-#### XFCE
-
-- Right-click desktop → \"Desktop Settings\" → Add → Browse to wallpaper-archive.
-
-#### Cinnamon, LXQt, MATE, etc.
-
-- Use the standard desktop settings dialog to browse to the wallpaper-archive and pick your image.
-
-#### For Dynamic Wallpapers
-
-For environments that support dynamic wallpapers, you can use \`mpvpaper\`:
-
-```
-mpvpaper -s -o "no-audio loop" eDP-1 ~/path/to/wallpaper-archive/your-wallpaper.mp4
-```
-
-_If your environment isn’t listed here, please open an issue or PR with setup instructions!_
 
 ## Contributing
 
