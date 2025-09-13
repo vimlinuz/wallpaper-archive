@@ -37,7 +37,7 @@ let dynamic_note = "
 
 ### Dynamic Wallpapers
 
-**Note:** Dynamic wallpapers (.mp4, .webm) cannot be previewed directly in GitHub. Please browse the Dynamic-Wallpapers/` folder to see the available animated wallpapers.
+**Note:** Dynamic wallpapers (.mp4, .webm) cannot be previewed directly in GitHub. Please browse the Dynamic-Wallpapers/ folder to see the available animated wallpapers.
 
 ## Organization
 
