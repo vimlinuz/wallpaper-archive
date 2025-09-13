@@ -132,6 +132,7 @@ This repository contains handpicked wallpapers that work beautifully across a wi
 <img src="Static-Wallpapers/Your_Name_Anime_night_sky.jpg" width="300">
 <img src="Static-Wallpapers/Your_Name_Night_Sky.jpg" width="300">
 <img src="Static-Wallpapers/anime-night-sky-illustration.jpg" width="300">
+<img src="Static-Wallpapers/anime-night-stars-sky-clouds-scenery.jpg" width="300">
 <img src="Static-Wallpapers/apple-light.jpg" width="300">
 <img src="Static-Wallpapers/astro-skull.png" width="300">
 <img src="Static-Wallpapers/bloodrock-steppes.png" width="300">
@@ -143,6 +144,7 @@ This repository contains handpicked wallpapers that work beautifully across a wi
 <img src="Static-Wallpapers/city-rain.png" width="300">
 <img src="Static-Wallpapers/city_bridge.jpg" width="300">
 <img src="Static-Wallpapers/city_top_view.jpg" width="300">
+<img src="Static-Wallpapers/cloudy.jpg" width="300">
 <img src="Static-Wallpapers/comet.jpg" width="300">
 <img src="Static-Wallpapers/copper_mountain.jpg" width="300">
 <img src="Static-Wallpapers/corndog.png" width="300">
@@ -152,6 +154,7 @@ This repository contains handpicked wallpapers that work beautifully across a wi
 <img src="Static-Wallpapers/evening-landscape.jpg" width="300">
 <img src="Static-Wallpapers/explorer_green_day.jpg" width="300">
 <img src="Static-Wallpapers/forest-landscape.jpg" width="300">
+<img src="Static-Wallpapers/high_tension.jpg" width="300">
 <img src="Static-Wallpapers/illustration-anime-city.jpg" width="300">
 <img src="Static-Wallpapers/inazuma_cats_place.png" width="300">
 <img src="Static-Wallpapers/inazuma_sacrad_tree.jpg" width="300">
@@ -196,6 +199,7 @@ This repository contains handpicked wallpapers that work beautifully across a wi
 <img src="Static-Wallpapers/rose-pine-sword.jpg" width="300">
 <img src="Static-Wallpapers/shiba.png" width="300">
 <img src="Static-Wallpapers/ship-landscape.jpeg" width="300">
+<img src="Static-Wallpapers/sky_view.jpg" width="300">
 <img src="Static-Wallpapers/spaceship-start.jpg" width="300">
 <img src="Static-Wallpapers/spaceship1.jpg" width="300">
 <img src="Static-Wallpapers/spaceship2.jpg" width="300">
@@ -206,6 +210,7 @@ This repository contains handpicked wallpapers that work beautifully across a wi
 <img src="Static-Wallpapers/sunset-in-thick-forest.jpg" width="300">
 <img src="Static-Wallpapers/sunset-lookout.jpg" width="300">
 <img src="Static-Wallpapers/sunset-mountain-beautiful.jpg" width="300">
+<img src="Static-Wallpapers/sunset_landscape.jpg" width="300">
 <img src="Static-Wallpapers/sword-red.png" width="300">
 <img src="Static-Wallpapers/the-snap-hunt-camping.png" width="300">
 <img src="Static-Wallpapers/the-white-horse.jpg" width="300">
