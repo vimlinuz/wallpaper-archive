@@ -191,6 +191,9 @@ This repository contains handpicked wallpapers that work beautifully across a wi
 <img src="Static-Wallpapers/orange-desert.jpg" width="300">
 <img src="Static-Wallpapers/phoebe_wuwa.jpg" width="300">
 <img src="Static-Wallpapers/psycho-mob-100.png" width="300">
+<img src="Static-Wallpapers/raiden-with-umbrella.jpg" width="300">
+<img src="Static-Wallpapers/raiden.png" width="300">
+<img src="Static-Wallpapers/raiden_shogan.jpg" width="300">
 <img src="Static-Wallpapers/reflection-of-train.png" width="300">
 <img src="Static-Wallpapers/river_to_castle_theme_blue.jpg" width="300">
 <img src="Static-Wallpapers/robot-home.png" width="300">
