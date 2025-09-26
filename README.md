@@ -134,6 +134,7 @@ This repository contains handpicked wallpapers that work beautifully across a wi
 <img src="Static-Wallpapers/anime-night-sky-illustration.jpg" width="300">
 <img src="Static-Wallpapers/anime-night-stars-sky-clouds-scenery.jpg" width="300">
 <img src="Static-Wallpapers/apple-light.jpg" width="300">
+<img src="Static-Wallpapers/arlecchino.jpeg" width="300">
 <img src="Static-Wallpapers/astro-skull.png" width="300">
 <img src="Static-Wallpapers/bloodrock-steppes.png" width="300">
 <img src="Static-Wallpapers/blue_night_moon_over_lake.jpg" width="300">
@@ -178,6 +179,7 @@ This repository contains handpicked wallpapers that work beautifully across a wi
 <img src="Static-Wallpapers/mountain-sunrise.jpg" width="300">
 <img src="Static-Wallpapers/muscle-car-ice-road-red-moon.jpg" width="300">
 <img src="Static-Wallpapers/mystical-night-in-town.jpg" width="300">
+<img src="Static-Wallpapers/nahida.jpeg" width="300">
 <img src="Static-Wallpapers/nature.jpg" width="300">
 <img src="Static-Wallpapers/natures-mountain-waters.jpg" width="300">
 <img src="Static-Wallpapers/neon_car.jpg" width="300">
@@ -188,6 +190,7 @@ This repository contains handpicked wallpapers that work beautifully across a wi
 <img src="Static-Wallpapers/no-mans-land.jpg" width="300">
 <img src="Static-Wallpapers/nordwall3.jpg" width="300">
 <img src="Static-Wallpapers/northern-night.jpg" width="300">
+<img src="Static-Wallpapers/nuvillette.png" width="300">
 <img src="Static-Wallpapers/orange-desert.jpg" width="300">
 <img src="Static-Wallpapers/phoebe_wuwa.jpg" width="300">
 <img src="Static-Wallpapers/psycho-mob-100.png" width="300">
@@ -222,6 +225,7 @@ This repository contains handpicked wallpapers that work beautifully across a wi
 <img src="Static-Wallpapers/train.png" width="300">
 <img src="Static-Wallpapers/tree.jpg" width="300">
 <img src="Static-Wallpapers/vinland-saga.jpg" width="300">
+<img src="Static-Wallpapers/wanderer.jpeg" width="300">
 <img src="Static-Wallpapers/watchtower-mountains-and-forests.jpg" width="300">
 <img src="Static-Wallpapers/xiao_and_ganyu.jpg" width="300">
 <img src="Static-Wallpapers/yellowcar.jpg" width="300">
