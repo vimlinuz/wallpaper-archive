@@ -1,23 +1,10 @@
 
 let readme_template = "
-# Wallpaper Archive for Linux Window Managers & Desktops
+# Wallpaper Archive
 
-A collection of high-quality wallpapers suitable for all major Linux window managers and desktop environments. These backgrounds are curated to complement dynamic tiling, modern aesthetics, and to enhance the overall desktop experience—whether you\'re using Hyprland, Sway, i3, GNOME, KDE Plasma, XFCE, or any other environment.
-
-## About
-
-This repository contains handpicked wallpapers that work beautifully across a wide range of setups. While many are optimized for minimal, sleek configurations (such as Hyprland), they are equally at home on desktops and window managers of all kinds.
-
-## Contents
-
-- High-resolution backgrounds (minimum 1920x1080)
-- Various themes and styles
-- Suitable for transparency and blur effects if your environment supports them
+This repository is a personal archive of beautiful wallpapers that I have gathered over time from a wide variety of sources and talented creators across the internet. My aim is simply to make it easier for myself (and anyone who stumbles across this) to find inspiring desktop backgrounds that look great on all kinds of setups from minimal, modern desktops like Hyprland to classic window managers and everything in between.
 
 ## Wallpaper Previews
-
-> All wallpapers are at least 1920x1080. Scroll down to see them all!
-
 ### Static Wallpapers
 
 <p align=\"center\">
@@ -46,14 +33,6 @@ Wallpapers are organized by their type:
 - `Dynamic-Wallpapers/` — Contains all the dynamic wallpapers
 - `Static-Wallpapers/` — Contains all the static wallpapers
 
-
-## Contributing
-
-Contributions are welcome! If you'd like to add wallpapers:
-
-1. Fork this repository
-2. Add your wallpapers (1920x1080 minimum resolution)
-3. Create a pull request
 
 ## License
 
